@@ -1,6 +1,6 @@
 # Eltex::Lte
 
-This gem aims to provide transport-flexible functionality, for easy communication with Eltex LTE devices. It currently allows you to execute commands on a device and get back the output of those commands.
+This gem for easy communication with Eltex LTE devices. It currently allows you to execute commands on a device and get back the output of those commands.
 
 Eltex LTE-8X central office node terminal is designed to provide a broadband access over Passive Optical Network (PON). Access to provider transport network  is realized by 10 Gigabit and combo Gigabit uplink interfaces. GPON interfaces are used for connection to Passive Optical distribution Network (PON). It is possible to connect up to 128 subscriber optical terminals to each interface by one fiber. Dynamic Bandwidth Allocation (DBA) enables to provide downstream rate up to 2.5 Gbps.
 
