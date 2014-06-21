@@ -27,7 +27,7 @@ Or install it yourself as:
 
 ## Usage
 
-This library is used as follows:
+### This library is used as follows:
 
     require 'eltex/lte'
 
@@ -47,13 +47,13 @@ This library is used as follows:
     
     lte.cmd "exit"
 
-# Additional Connection Parameters
+### Additional Connection Parameters
 
     :password_pat => %r/Password:/io - Pattern password prompt string device
     :prompt_pat => %r/^LTE-8X/io - Pattern prompt string device
     :debug => true - Enable debug mode
 
-# Additional examples of the use of library
+### Additional examples of the use of library
 
 Get data from the device in a list:
 
