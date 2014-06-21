@@ -39,7 +39,7 @@ Or install it yourself as:
     lte.cmd "set profile ipmc 2"
     output = lte.cmd "reconfigure", :get_result => true
     
-    output =~ /successfully reconfigured/m
+    if output =~ /successfully reconfigured/m
         puts "OK!"
     else
         puts "ERROR!"
